@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2512" started-at="2020-12-31T10:34:03Z" finished-at="2020-12-31T10:34:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2512" started-at="2020-12-31T10:34:03Z" finished-at="2020-12-31T10:34:05Z">
+      <class name="comrmgyantra.api.projecttest.DeleteProject">
+        <test-method status="PASS" signature="deleteProject()[pri:0, instance:comrmgyantra.api.projecttest.DeleteProject@18a70f16]" name="deleteProject" duration-ms="2485" started-at="2020-12-31T16:04:03Z" finished-at="2020-12-31T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+      </class> <!-- comrmgyantra.api.projecttest.DeleteProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
