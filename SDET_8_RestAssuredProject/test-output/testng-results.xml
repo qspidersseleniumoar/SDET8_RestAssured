@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2512" started-at="2020-12-31T10:34:03Z" finished-at="2020-12-31T10:34:05Z">
+  <suite name="Default suite" duration-ms="2515" started-at="2020-12-31T11:06:48Z" finished-at="2020-12-31T11:06:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2512" started-at="2020-12-31T10:34:03Z" finished-at="2020-12-31T10:34:05Z">
-      <class name="comrmgyantra.api.projecttest.DeleteProject">
-        <test-method status="PASS" signature="deleteProject()[pri:0, instance:comrmgyantra.api.projecttest.DeleteProject@18a70f16]" name="deleteProject" duration-ms="2485" started-at="2020-12-31T16:04:03Z" finished-at="2020-12-31T16:04:05Z">
+    <test name="Default test" duration-ms="2515" started-at="2020-12-31T11:06:48Z" finished-at="2020-12-31T11:06:50Z">
+      <class name="crud.practice.program.PostComplexRequest_using_PojoClass">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:crud.practice.program.PostComplexRequest_using_PojoClass@4206a205]" name="sampleTest" duration-ms="2489" started-at="2020-12-31T16:36:48Z" finished-at="2020-12-31T16:36:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteProject -->
-      </class> <!-- comrmgyantra.api.projecttest.DeleteProject -->
+        </test-method> <!-- sampleTest -->
+      </class> <!-- crud.practice.program.PostComplexRequest_using_PojoClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

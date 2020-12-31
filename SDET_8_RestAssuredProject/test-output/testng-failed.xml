@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="comrmgyantra.api.projecttest.DeleteProject">
+      <class name="crud.practice.program.PostComplexRequest_Vai_Json">
         <methods>
-          <include name="deleteProject"/>
+          <include name="sampleTest"/>
         </methods>
-      </class> <!-- comrmgyantra.api.projecttest.DeleteProject -->
+      </class> <!-- crud.practice.program.PostComplexRequest_Vai_Json -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
