@@ -99,4 +99,27 @@ public class DataBaseUtilities {
 		
 	}
 	
+	public static  boolean verifyexpectedDatainTable(String query ,int columnName , String expectedData) throws Throwable{
+        boolean flag = false;
+			result = con.createStatement().executeQuery(query);
+			
+		while (result.next()) {
+			  		if(result.getString(columnName).equals(expectedData)) {
+			  			flag= true;
+			  			break;
+			  		}
+		}
+			
+		
+		if(flag) {
+			System.out.println(expectedData + "===> data verified in data base table");
+			return true;
+		}else {
+			System.out.println(columnName + "===> data not verified in data base table");
+			return false;
+		}
+		
+		
+	}
+	
 }

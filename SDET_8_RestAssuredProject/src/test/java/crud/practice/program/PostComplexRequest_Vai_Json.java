@@ -16,6 +16,7 @@ public class PostComplexRequest_Vai_Json {
 	File fis = new File("./sampleProject.json");
 		
         given()
+          .auth().basic("username", "password")
           .contentType(ContentType.JSON)
           .body(fis)
         .when()

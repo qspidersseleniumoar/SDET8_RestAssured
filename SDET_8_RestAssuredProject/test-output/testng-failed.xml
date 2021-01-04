@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" parallel="none">
-  <test name="Default test(failed)" parallel="none">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crud.practice.program.PostComplexRequest_Vai_Json">
+      <class name="com.rmgyantra.api.projects.CreateMultipleProjects">
         <methods>
-          <include name="sampleTest"/>
+          <include name="addMulipleProjects" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- crud.practice.program.PostComplexRequest_Vai_Json -->
+      </class> <!-- com.rmgyantra.api.projects.CreateMultipleProjects -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

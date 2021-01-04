@@ -1,25 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3533" started-at="2021-01-04T12:34:33 IST" finished-at="2021-01-04T12:34:36 IST">
+  <suite name="Default suite" duration-ms="3470" started-at="2021-01-04T17:00:52 IST" finished-at="2021-01-04T17:00:55 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3533" started-at="2021-01-04T12:34:33 IST" finished-at="2021-01-04T12:34:36 IST">
-      <class name="com.rmgyantra.api.projects.AddSingleProjectWithCreated">
-        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.rmgyantra.api.projects.AddSingleProjectWithCreated@4f063c0a]" name="configBeforeSuite" is-config="true" duration-ms="789" started-at="2021-01-04T12:34:32 IST" finished-at="2021-01-04T12:34:33 IST">
+    <test name="Default test" duration-ms="3470" started-at="2021-01-04T17:00:52 IST" finished-at="2021-01-04T17:00:55 IST">
+      <class name="com.rmgyantra.api.projects.CreateMultipleProjects">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.rmgyantra.api.projects.CreateMultipleProjects@26aa12dd]" name="configBeforeSuite" is-config="true" duration-ms="719" started-at="2021-01-04T17:00:51 IST" finished-at="2021-01-04T17:00:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuite -->
-        <test-method status="PASS" signature="createProjectWithCreatedStatus()[pri:0, instance:com.rmgyantra.api.projects.AddSingleProjectWithCreated@4f063c0a]" name="createProjectWithCreatedStatus" duration-ms="3480" started-at="2021-01-04T12:34:33 IST" finished-at="2021-01-04T12:34:36 IST">
+        <test-method status="PASS" signature="addMulipleProjects(java.lang.String, java.lang.String, int)[pri:0, instance:com.rmgyantra.api.projects.CreateMultipleProjects@26aa12dd]" name="addMulipleProjects" duration-ms="3035" started-at="2021-01-04T17:00:52 IST" data-provider="provideData" finished-at="2021-01-04T17:00:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createProjectWithCreatedStatus -->
-        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.rmgyantra.api.projects.AddSingleProjectWithCreated@4f063c0a]" name="configAfterSuite" is-config="true" duration-ms="11" started-at="2021-01-04T12:34:36 IST" finished-at="2021-01-04T12:34:36 IST">
+        </test-method> <!-- addMulipleProjects -->
+        <test-method status="PASS" signature="addMulipleProjects(java.lang.String, java.lang.String, int)[pri:0, instance:com.rmgyantra.api.projects.CreateMultipleProjects@26aa12dd]" name="addMulipleProjects" duration-ms="95" started-at="2021-01-04T17:00:55 IST" data-provider="provideData" finished-at="2021-01-04T17:00:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nokia]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMulipleProjects -->
+        <test-method status="PASS" signature="addMulipleProjects(java.lang.String, java.lang.String, int)[pri:0, instance:com.rmgyantra.api.projects.CreateMultipleProjects@26aa12dd]" name="addMulipleProjects" duration-ms="96" started-at="2021-01-04T17:00:55 IST" data-provider="provideData" finished-at="2021-01-04T17:00:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMulipleProjects -->
+        <test-method status="PASS" signature="addMulipleProjects(java.lang.String, java.lang.String, int)[pri:0, instance:com.rmgyantra.api.projects.CreateMultipleProjects@26aa12dd]" name="addMulipleProjects" duration-ms="94" started-at="2021-01-04T17:00:55 IST" data-provider="provideData" finished-at="2021-01-04T17:00:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[moto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMulipleProjects -->
+        <test-method status="PASS" signature="addMulipleProjects(java.lang.String, java.lang.String, int)[pri:0, instance:com.rmgyantra.api.projects.CreateMultipleProjects@26aa12dd]" name="addMulipleProjects" duration-ms="82" started-at="2021-01-04T17:00:55 IST" data-provider="provideData" finished-at="2021-01-04T17:00:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1plus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMulipleProjects -->
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.rmgyantra.api.projects.CreateMultipleProjects@26aa12dd]" name="configAfterSuite" is-config="true" duration-ms="14" started-at="2021-01-04T17:00:55 IST" finished-at="2021-01-04T17:00:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterSuite -->
-      </class> <!-- com.rmgyantra.api.projects.AddSingleProjectWithCreated -->
+      </class> <!-- com.rmgyantra.api.projects.CreateMultipleProjects -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
