@@ -2,10 +2,12 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -22,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -48,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Deepak\AppData\Local\Temp\testng-eclipse-1140356188\testng-customsuite.xml</span>
+                    <span>C:\Users\Deepak\AppData\Local\Temp\testng-eclipse-572176154\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="crud.practice.program.PostComplexRequest_using_PojoClass" hash-for-method="sampleTest">sampleTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.rmgyantra.api.projects.AddSingleProjectWithCreated" hash-for-method="createProjectWithCreatedStatus">createProjectWithCreatedStatus</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">crud.practice.program.PostComplexRequest_using_PojoClass</span>
+              <span class="class-name">com.rmgyantra.api.projects.AddSingleProjectWithCreated</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="sampleTest">
-                  </a> <!-- sampleTest -->
-                  <span class="method-name">sampleTest</span>
+                  <a name="createProjectWithCreatedStatus">
+                  </a> <!-- createProjectWithCreatedStatus -->
+                  <span class="method-name">createProjectWithCreatedStatus</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,20 +137,16 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Deepak\AppData\Local\Temp\testng-eclipse-1140356188\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Deepak\AppData\Local\Temp\testng-eclipse-572176154\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; parallel=&quot;none&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;crud.practice.program.PostComplexRequest_using_PojoClass&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;sampleTest&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- crud.practice.program.PostComplexRequest_using_PojoClass --&gt;
+      &lt;class name=&quot;com.rmgyantra.api.projects.AddSingleProjectWithCreated&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'sampleTest')
-data.setCell(0, 2, 'crud.practice.program.PostComplexRequest_using_PojoClass')
-data.setCell(0, 3, 2489);
+data.setCell(0, 1, 'createProjectWithCreatedStatus')
+data.setCell(0, 2, 'com.rmgyantra.api.projects.AddSingleProjectWithCreated')
+data.setCell(0, 3, 3480);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -222,14 +221,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">crud.practice.program.PostComplexRequest_using_PojoClass</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">sampleTest</span>
+              <div class="chronological-class-name">com.rmgyantra.api.projects.AddSingleProjectWithCreated</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">configBeforeSuite</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">createProjectWithCreatedStatus</span>
+                <span class="method-start">822 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">configAfterSuite</span>
+                <span class="method-start">4411 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

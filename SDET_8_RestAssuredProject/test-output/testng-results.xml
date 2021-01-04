@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2515" started-at="2020-12-31T11:06:48Z" finished-at="2020-12-31T11:06:50Z">
+  <suite name="Default suite" duration-ms="3533" started-at="2021-01-04T12:34:33 IST" finished-at="2021-01-04T12:34:36 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2515" started-at="2020-12-31T11:06:48Z" finished-at="2020-12-31T11:06:50Z">
-      <class name="crud.practice.program.PostComplexRequest_using_PojoClass">
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:crud.practice.program.PostComplexRequest_using_PojoClass@4206a205]" name="sampleTest" duration-ms="2489" started-at="2020-12-31T16:36:48Z" finished-at="2020-12-31T16:36:50Z">
+    <test name="Default test" duration-ms="3533" started-at="2021-01-04T12:34:33 IST" finished-at="2021-01-04T12:34:36 IST">
+      <class name="com.rmgyantra.api.projects.AddSingleProjectWithCreated">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.rmgyantra.api.projects.AddSingleProjectWithCreated@4f063c0a]" name="configBeforeSuite" is-config="true" duration-ms="789" started-at="2021-01-04T12:34:32 IST" finished-at="2021-01-04T12:34:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest -->
-      </class> <!-- crud.practice.program.PostComplexRequest_using_PojoClass -->
+        </test-method> <!-- configBeforeSuite -->
+        <test-method status="PASS" signature="createProjectWithCreatedStatus()[pri:0, instance:com.rmgyantra.api.projects.AddSingleProjectWithCreated@4f063c0a]" name="createProjectWithCreatedStatus" duration-ms="3480" started-at="2021-01-04T12:34:33 IST" finished-at="2021-01-04T12:34:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectWithCreatedStatus -->
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.rmgyantra.api.projects.AddSingleProjectWithCreated@4f063c0a]" name="configAfterSuite" is-config="true" duration-ms="11" started-at="2021-01-04T12:34:36 IST" finished-at="2021-01-04T12:34:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.rmgyantra.api.projects.AddSingleProjectWithCreated -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
